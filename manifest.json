@@ -1,58 +1,52 @@
 {
-  "name": "CastNuvio TR Providers",
   "id": "castnuvio-tr",
+  "name": "CastNuvio TR Providers",
   "version": "1.0.0",
   "description": "Castiel430 Türkçe Medya Kaynakları",
   "author": "castiel430",
-  "providers": [
+  "icon": "https://raw.githubusercontent.com/castiel430/castnuvio/main/icon.png",
+  "scrapers": [
     {
       "id": "hdfilmcehennemi",
       "name": "HDFilmCehennemi",
-      "supportedTypes": ["movie", "tv"],
-      "filename": "providers/hdfilmcehennemi.js",
-      "enabled": true
+      "types": ["movie", "tv"],
+      "script": "providers/hdfilmcehennemi.js"
     },
     {
       "id": "webteizle",
       "name": "WebteIzle",
-      "supportedTypes": ["movie", "tv"],
-      "filename": "providers/webteizle.js",
-      "enabled": true
+      "types": ["movie", "tv"],
+      "script": "providers/webteizle.js"
     },
     {
       "id": "sezonlukdizi",
       "name": "SezonlukDizi",
-      "supportedTypes": ["tv"],
-      "filename": "providers/sezonlukdizi.js",
-      "enabled": true
+      "types": ["tv"],
+      "script": "providers/sezonlukdizi.js"
     },
     {
       "id": "hdfilmdelisi",
       "name": "HDFilmDelisi",
-      "supportedTypes": ["movie"],
-      "filename": "providers/hdfilmdelisi.js",
-      "enabled": true
+      "types": ["movie"],
+      "script": "providers/hdfilmdelisi.js"
     },
     {
       "id": "fullhdfilmizlesene",
       "name": "FullHDFilmizlesene",
-      "supportedTypes": ["movie"],
-      "filename": "providers/fullhdfilmizlesene.js",
-      "enabled": true
+      "types": ["movie"],
+      "script": "providers/fullhdfilmizlesene.js"
     },
     {
       "id": "filmmodu",
       "name": "FilmModu",
-      "supportedTypes": ["movie"],
-      "filename": "providers/filmmodu.js",
-      "enabled": true
+      "types": ["movie"],
+      "script": "providers/filmmodu.js"
     },
     {
       "id": "dizibox",
       "name": "Dizibox",
-      "supportedTypes": ["tv"],
-      "filename": "providers/dizibox.js",
-      "enabled": true
+      "types": ["tv"],
+      "script": "providers/dizibox.js"
     }
   ]
 }
