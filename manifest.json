@@ -9,43 +9,43 @@
       "id": "hdfilmcehennemi",
       "name": "HDFilmCehennemi",
       "types": ["movie", "tv"],
-      "script": "providers/hdfilmcehennemi.js"
+      "src": "providers/hdfilmcehennemi.js"
     },
     {
       "id": "webteizle",
       "name": "WebteIzle",
       "types": ["movie", "tv"],
-      "script": "providers/webteizle.js"
+      "src": "providers/webteizle.js"
     },
     {
       "id": "sezonlukdizi",
       "name": "SezonlukDizi",
       "types": ["tv"],
-      "script": "providers/sezonlukdizi.js"
+      "src": "providers/sezonlukdizi.js"
     },
     {
       "id": "hdfilmdelisi",
       "name": "HDFilmDelisi",
       "types": ["movie"],
-      "script": "providers/hdfilmdelisi.js"
+      "src": "providers/hdfilmdelisi.js"
     },
     {
       "id": "fullhdfilmizlesene",
       "name": "FullHDFilmizlesene",
       "types": ["movie"],
-      "script": "providers/fullhdfilmizlesene.js"
+      "src": "providers/fullhdfilmizlesene.js"
     },
     {
       "id": "filmmodu",
       "name": "FilmModu",
       "types": ["movie"],
-      "script": "providers/filmmodu.js"
+      "src": "providers/filmmodu.js"
     },
     {
       "id": "dizibox",
       "name": "Dizibox",
       "types": ["tv"],
-      "script": "providers/dizibox.js"
+      "src": "providers/dizibox.js"
     }
   ]
 }
