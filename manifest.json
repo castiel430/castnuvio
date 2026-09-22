@@ -4,48 +4,55 @@
   "version": "1.0.0",
   "description": "Castiel430 Türkçe Medya Kaynakları",
   "author": "castiel430",
-  "scrapers": [
+  "providers": [
     {
       "id": "hdfilmcehennemi",
       "name": "HDFilmCehennemi",
-      "types": ["movie", "tv"],
-      "src": "providers/hdfilmcehennemi.js"
+      "filename": "providers/hdfilmcehennemi.js",
+      "supportedTypes": ["movie", "tv"],
+      "enabled": true
     },
     {
       "id": "webteizle",
       "name": "WebteIzle",
-      "types": ["movie", "tv"],
-      "src": "providers/webteizle.js"
+      "filename": "providers/webteizle.js",
+      "supportedTypes": ["movie", "tv"],
+      "enabled": true
     },
     {
       "id": "sezonlukdizi",
       "name": "SezonlukDizi",
-      "types": ["tv"],
-      "src": "providers/sezonlukdizi.js"
+      "filename": "providers/sezonlukdizi.js",
+      "supportedTypes": ["tv"],
+      "enabled": true
     },
     {
       "id": "hdfilmdelisi",
       "name": "HDFilmDelisi",
-      "types": ["movie"],
-      "src": "providers/hdfilmdelisi.js"
+      "filename": "providers/hdfilmdelisi.js",
+      "supportedTypes": ["movie"],
+      "enabled": true
     },
     {
       "id": "fullhdfilmizlesene",
       "name": "FullHDFilmizlesene",
-      "types": ["movie"],
-      "src": "providers/fullhdfilmizlesene.js"
+      "filename": "providers/fullhdfilmizlesene.js",
+      "supportedTypes": ["movie"],
+      "enabled": true
     },
     {
       "id": "filmmodu",
       "name": "FilmModu",
-      "types": ["movie"],
-      "src": "providers/filmmodu.js"
+      "filename": "providers/filmmodu.js",
+      "supportedTypes": ["movie"],
+      "enabled": true
     },
     {
       "id": "dizibox",
       "name": "Dizibox",
-      "types": ["tv"],
-      "src": "providers/dizibox.js"
+      "filename": "providers/dizibox.js",
+      "supportedTypes": ["tv"],
+      "enabled": true
     }
   ]
 }
