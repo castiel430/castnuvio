@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "Castiel430 Türkçe Medya Kaynakları",
   "author": "castiel430",
-  "icon": "https://raw.githubusercontent.com/castiel430/castnuvio/main/icon.png",
   "scrapers": [
     {
       "id": "hdfilmcehennemi",
