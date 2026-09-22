@@ -1,6 +1,6 @@
 {
-  "id": "castnuvio-tr",
   "name": "CastNuvio TR Providers",
+  "id": "castnuvio-tr",
   "version": "1.0.0",
   "description": "Castiel430 Türkçe Medya Kaynakları",
   "author": "castiel430",
@@ -8,50 +8,50 @@
     {
       "id": "hdfilmcehennemi",
       "name": "HDFilmCehennemi",
-      "filename": "providers/hdfilmcehennemi.js",
       "supportedTypes": ["movie", "tv"],
+      "filename": "providers/hdfilmcehennemi.js",
       "enabled": true
     },
     {
       "id": "webteizle",
       "name": "WebteIzle",
-      "filename": "providers/webteizle.js",
       "supportedTypes": ["movie", "tv"],
+      "filename": "providers/webteizle.js",
       "enabled": true
     },
     {
       "id": "sezonlukdizi",
       "name": "SezonlukDizi",
-      "filename": "providers/sezonlukdizi.js",
       "supportedTypes": ["tv"],
+      "filename": "providers/sezonlukdizi.js",
       "enabled": true
     },
     {
       "id": "hdfilmdelisi",
       "name": "HDFilmDelisi",
-      "filename": "providers/hdfilmdelisi.js",
       "supportedTypes": ["movie"],
+      "filename": "providers/hdfilmdelisi.js",
       "enabled": true
     },
     {
       "id": "fullhdfilmizlesene",
       "name": "FullHDFilmizlesene",
-      "filename": "providers/fullhdfilmizlesene.js",
       "supportedTypes": ["movie"],
+      "filename": "providers/fullhdfilmizlesene.js",
       "enabled": true
     },
     {
       "id": "filmmodu",
       "name": "FilmModu",
-      "filename": "providers/filmmodu.js",
       "supportedTypes": ["movie"],
+      "filename": "providers/filmmodu.js",
       "enabled": true
     },
     {
       "id": "dizibox",
       "name": "Dizibox",
-      "filename": "providers/dizibox.js",
       "supportedTypes": ["tv"],
+      "filename": "providers/dizibox.js",
       "enabled": true
     }
   ]
